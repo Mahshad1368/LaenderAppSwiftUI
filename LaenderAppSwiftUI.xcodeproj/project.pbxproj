@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49C086A92C5BCB4500AF2F80 /* LaenderAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C086A82C5BCB4500AF2F80 /* LaenderAppSwiftUIApp.swift */; };
+		49C086AB2C5BCB4500AF2F80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C086AA2C5BCB4500AF2F80 /* ContentView.swift */; };
+		49C086AD2C5BCB4700AF2F80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C086AC2C5BCB4700AF2F80 /* Assets.xcassets */; };
+		49C086B02C5BCB4700AF2F80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C086AF2C5BCB4700AF2F80 /* Preview Assets.xcassets */; };
+		49C086BA2C5BCB4700AF2F80 /* LaenderAppSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C086B92C5BCB4700AF2F80 /* LaenderAppSwiftUITests.swift */; };
+		49C086C42C5BCB4700AF2F80 /* LaenderAppSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C086C32C5BCB4700AF2F80 /* LaenderAppSwiftUIUITests.swift */; };
+		49C086C62C5BCB4700AF2F80 /* LaenderAppSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C086C52C5BCB4700AF2F80 /* LaenderAppSwiftUIUITestsLaunchTests.swift */; };
+		49C086D32C5BCB9100AF2F80 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 49C086D22C5BCB9100AF2F80 /* data.json */; };
+		49C086D52C5BCBA800AF2F80 /* Bundle+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C086D42C5BCBA800AF2F80 /* Bundle+Ext.swift */; };
+		49C086D82C5BCC1800AF2F80 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C086D72C5BCC1800AF2F80 /* Country.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49C086B62C5BCB4700AF2F80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49C0869D2C5BCB4500AF2F80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49C086A42C5BCB4500AF2F80;
+			remoteInfo = LaenderAppSwiftUI;
+		};
+		49C086C02C5BCB4700AF2F80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49C0869D2C5BCB4500AF2F80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49C086A42C5BCB4500AF2F80;
+			remoteInfo = LaenderAppSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49C086A52C5BCB4500AF2F80 /* LaenderAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaenderAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C086A82C5BCB4500AF2F80 /* LaenderAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaenderAppSwiftUIApp.swift; sourceTree = "<group>"; };
+		49C086AA2C5BCB4500AF2F80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		49C086AC2C5BCB4700AF2F80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49C086AF2C5BCB4700AF2F80 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49C086B52C5BCB4700AF2F80 /* LaenderAppSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaenderAppSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C086B92C5BCB4700AF2F80 /* LaenderAppSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaenderAppSwiftUITests.swift; sourceTree = "<group>"; };
+		49C086BF2C5BCB4700AF2F80 /* LaenderAppSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaenderAppSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C086C32C5BCB4700AF2F80 /* LaenderAppSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaenderAppSwiftUIUITests.swift; sourceTree = "<group>"; };
+		49C086C52C5BCB4700AF2F80 /* LaenderAppSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaenderAppSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		49C086D22C5BCB9100AF2F80 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		49C086D42C5BCBA800AF2F80 /* Bundle+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Ext.swift"; sourceTree = "<group>"; };
+		49C086D72C5BCC1800AF2F80 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49C086A22C5BCB4500AF2F80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C086B22C5BCB4700AF2F80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C086BC2C5BCB4700AF2F80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49C0869C2C5BCB4500AF2F80 = {
+			isa = PBXGroup;
+			children = (
+				49C086A72C5BCB4500AF2F80 /* LaenderAppSwiftUI */,
+				49C086B82C5BCB4700AF2F80 /* LaenderAppSwiftUITests */,
+				49C086C22C5BCB4700AF2F80 /* LaenderAppSwiftUIUITests */,
+				49C086A62C5BCB4500AF2F80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49C086A62C5BCB4500AF2F80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49C086A52C5BCB4500AF2F80 /* LaenderAppSwiftUI.app */,
+				49C086B52C5BCB4700AF2F80 /* LaenderAppSwiftUITests.xctest */,
+				49C086BF2C5BCB4700AF2F80 /* LaenderAppSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49C086A72C5BCB4500AF2F80 /* LaenderAppSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				49C086A82C5BCB4500AF2F80 /* LaenderAppSwiftUIApp.swift */,
+				49C086AA2C5BCB4500AF2F80 /* ContentView.swift */,
+				49C086D62C5BCBAF00AF2F80 /* Extention */,
+				49C086AC2C5BCB4700AF2F80 /* Assets.xcassets */,
+				49C086D22C5BCB9100AF2F80 /* data.json */,
+				49C086D72C5BCC1800AF2F80 /* Country.swift */,
+				49C086AE2C5BCB4700AF2F80 /* Preview Content */,
+			);
+			path = LaenderAppSwiftUI;
+			sourceTree = "<group>";
+		};
+		49C086AE2C5BCB4700AF2F80 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				49C086AF2C5BCB4700AF2F80 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		49C086B82C5BCB4700AF2F80 /* LaenderAppSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49C086B92C5BCB4700AF2F80 /* LaenderAppSwiftUITests.swift */,
+			);
+			path = LaenderAppSwiftUITests;
+			sourceTree = "<group>";
+		};
+		49C086C22C5BCB4700AF2F80 /* LaenderAppSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49C086C32C5BCB4700AF2F80 /* LaenderAppSwiftUIUITests.swift */,
+				49C086C52C5BCB4700AF2F80 /* LaenderAppSwiftUIUITestsLaunchTests.swift */,
+			);
+			path = LaenderAppSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		49C086D62C5BCBAF00AF2F80 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				49C086D42C5BCBA800AF2F80 /* Bundle+Ext.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49C086A42C5BCB4500AF2F80 /* LaenderAppSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49C086C92C5BCB4700AF2F80 /* Build configuration list for PBXNativeTarget "LaenderAppSwiftUI" */;
+			buildPhases = (
+				49C086A12C5BCB4500AF2F80 /* Sources */,
+				49C086A22C5BCB4500AF2F80 /* Frameworks */,
+				49C086A32C5BCB4500AF2F80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaenderAppSwiftUI;
+			productName = LaenderAppSwiftUI;
+			productReference = 49C086A52C5BCB4500AF2F80 /* LaenderAppSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49C086B42C5BCB4700AF2F80 /* LaenderAppSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49C086CC2C5BCB4700AF2F80 /* Build configuration list for PBXNativeTarget "LaenderAppSwiftUITests" */;
+			buildPhases = (
+				49C086B12C5BCB4700AF2F80 /* Sources */,
+				49C086B22C5BCB4700AF2F80 /* Frameworks */,
+				49C086B32C5BCB4700AF2F80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49C086B72C5BCB4700AF2F80 /* PBXTargetDependency */,
+			);
+			name = LaenderAppSwiftUITests;
+			productName = LaenderAppSwiftUITests;
+			productReference = 49C086B52C5BCB4700AF2F80 /* LaenderAppSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49C086BE2C5BCB4700AF2F80 /* LaenderAppSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49C086CF2C5BCB4700AF2F80 /* Build configuration list for PBXNativeTarget "LaenderAppSwiftUIUITests" */;
+			buildPhases = (
+				49C086BB2C5BCB4700AF2F80 /* Sources */,
+				49C086BC2C5BCB4700AF2F80 /* Frameworks */,
+				49C086BD2C5BCB4700AF2F80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49C086C12C5BCB4700AF2F80 /* PBXTargetDependency */,
+			);
+			name = LaenderAppSwiftUIUITests;
+			productName = LaenderAppSwiftUIUITests;
+			productReference = 49C086BF2C5BCB4700AF2F80 /* LaenderAppSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49C0869D2C5BCB4500AF2F80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					49C086A42C5BCB4500AF2F80 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					49C086B42C5BCB4700AF2F80 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 49C086A42C5BCB4500AF2F80;
+					};
+					49C086BE2C5BCB4700AF2F80 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 49C086A42C5BCB4500AF2F80;
+					};
+				};
+			};
+			buildConfigurationList = 49C086A02C5BCB4500AF2F80 /* Build configuration list for PBXProject "LaenderAppSwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49C0869C2C5BCB4500AF2F80;
+			productRefGroup = 49C086A62C5BCB4500AF2F80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49C086A42C5BCB4500AF2F80 /* LaenderAppSwiftUI */,
+				49C086B42C5BCB4700AF2F80 /* LaenderAppSwiftUITests */,
+				49C086BE2C5BCB4700AF2F80 /* LaenderAppSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49C086A32C5BCB4500AF2F80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C086B02C5BCB4700AF2F80 /* Preview Assets.xcassets in Resources */,
+				49C086D32C5BCB9100AF2F80 /* data.json in Resources */,
+				49C086AD2C5BCB4700AF2F80 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C086B32C5BCB4700AF2F80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C086BD2C5BCB4700AF2F80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49C086A12C5BCB4500AF2F80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C086D82C5BCC1800AF2F80 /* Country.swift in Sources */,
+				49C086D52C5BCBA800AF2F80 /* Bundle+Ext.swift in Sources */,
+				49C086AB2C5BCB4500AF2F80 /* ContentView.swift in Sources */,
+				49C086A92C5BCB4500AF2F80 /* LaenderAppSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C086B12C5BCB4700AF2F80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C086BA2C5BCB4700AF2F80 /* LaenderAppSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C086BB2C5BCB4700AF2F80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C086C62C5BCB4700AF2F80 /* LaenderAppSwiftUIUITestsLaunchTests.swift in Sources */,
+				49C086C42C5BCB4700AF2F80 /* LaenderAppSwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49C086B72C5BCB4700AF2F80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49C086A42C5BCB4500AF2F80 /* LaenderAppSwiftUI */;
+			targetProxy = 49C086B62C5BCB4700AF2F80 /* PBXContainerItemProxy */;
+		};
+		49C086C12C5BCB4700AF2F80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49C086A42C5BCB4500AF2F80 /* LaenderAppSwiftUI */;
+			targetProxy = 49C086C02C5BCB4700AF2F80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		49C086C72C5BCB4700AF2F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49C086C82C5BCB4700AF2F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49C086CA2C5BCB4700AF2F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LaenderAppSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 5UAB2YDZ59;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mahshad.LaenderAppSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49C086CB2C5BCB4700AF2F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LaenderAppSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 5UAB2YDZ59;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mahshad.LaenderAppSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49C086CD2C5BCB4700AF2F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UAB2YDZ59;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mahshad.LaenderAppSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaenderAppSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LaenderAppSwiftUI";
+			};
+			name = Debug;
+		};
+		49C086CE2C5BCB4700AF2F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UAB2YDZ59;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mahshad.LaenderAppSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaenderAppSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LaenderAppSwiftUI";
+			};
+			name = Release;
+		};
+		49C086D02C5BCB4700AF2F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UAB2YDZ59;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mahshad.LaenderAppSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LaenderAppSwiftUI;
+			};
+			name = Debug;
+		};
+		49C086D12C5BCB4700AF2F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UAB2YDZ59;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mahshad.LaenderAppSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LaenderAppSwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49C086A02C5BCB4500AF2F80 /* Build configuration list for PBXProject "LaenderAppSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C086C72C5BCB4700AF2F80 /* Debug */,
+				49C086C82C5BCB4700AF2F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49C086C92C5BCB4700AF2F80 /* Build configuration list for PBXNativeTarget "LaenderAppSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C086CA2C5BCB4700AF2F80 /* Debug */,
+				49C086CB2C5BCB4700AF2F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49C086CC2C5BCB4700AF2F80 /* Build configuration list for PBXNativeTarget "LaenderAppSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C086CD2C5BCB4700AF2F80 /* Debug */,
+				49C086CE2C5BCB4700AF2F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49C086CF2C5BCB4700AF2F80 /* Build configuration list for PBXNativeTarget "LaenderAppSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C086D02C5BCB4700AF2F80 /* Debug */,
+				49C086D12C5BCB4700AF2F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49C0869D2C5BCB4500AF2F80 /* Project object */;
+}
